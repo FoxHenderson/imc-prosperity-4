@@ -16,6 +16,15 @@ Our team, DU Trading, placed 1st in the UK, 4th in Europe, and 10th globally. Ro
 
 Please refer to the [Frankfurt Hedgehogs writeup](https://github.com/TimoDiehm/imc-prosperity-3) from last year, we used their ideas and methods significantly in our approach to this year's competition. This write-up will build on concepts introduced there, so please do read that first if you have not already. 
 
+## Team
+ 
+- **[Fox Henderson](https://www.linkedin.com/in/foxhenderson/)**
+- **[Ankith Rangan](https://www.linkedin.com/in/ankith-rangan/)**
+- **[Fred Bicknell](https://www.linkedin.com/in/fredbicknell/)**
+- **[Tim Wolstenholme](https://www.linkedin.com/in/tim-wolstenholme/)**
+- **[Harry Donohoe](https://www.linkedin.com/in/harry-donohoe-46055232b/)**
+
+
 ## Round 1
 
 Round 1 introduced two products, both of which were broadly recognisable evolutions of last year's stable assets:
