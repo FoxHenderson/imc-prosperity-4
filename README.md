@@ -1,5 +1,7 @@
 Our team, DU Trading, placed 1st in the UK, 4th in Europe, and 10th globally. Rounds 1 and 2 were "qualifying" for phase 2, where the leaderboard started from scratch after the intermission.
 
+<img width="908" height="851" alt="image" src="https://github.com/user-attachments/assets/53fa011a-7238-4565-8d64-f5734b74863a" />
+
 | Round | Global Rank | 
 |-------|-------------|
 | 1 | 5 |
