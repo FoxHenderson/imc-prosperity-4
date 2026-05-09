@@ -160,7 +160,7 @@ When Mark 67 appeared as a buyer in the market-trades stream for velvetfruit, we
 
 #### Exploiting Mark 22
 
-Mark 22 often placed resting orders at, or below, the wall-mid. Visually, you could see these through the spikes in the best bid/ask going below the wall-mid. Since we believed wall-mid to be a sufficiently accurate reading of the internal fair value, we took any bids/asks in their entirety at these levels, for a small expected profit each time. 
+Mark 22 often placed resting orders at, or below, the wall-mid. Since we believed wall-mid to be a sufficiently accurate reading of the internal fair value, we took any bids/asks in their entirety at these levels, for a small expected profit each time. 
 
 |  |
 | --- |
