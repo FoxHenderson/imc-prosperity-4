@@ -2,6 +2,9 @@ Our team, DU Trading, placed 1st in the UK, 4th in Europe, and 10th globally. Ro
 
 <img width="908" height="851" alt="image" src="https://github.com/user-attachments/assets/53fa011a-7238-4565-8d64-f5734b74863a" />
 
+
+
+
 | Round | Global Rank | 
 |-------|-------------|
 | 1 | 5 |
