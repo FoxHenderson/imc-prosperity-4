@@ -186,7 +186,7 @@ We could exploit this due to the asymmetric payoff:
 
 |  |
 | --- |
-| **Figure 6: Discrete Jump |
+| **Figure 6: Discrete Jumps** |
 | <img width="1301" height="378" alt="discrete jump" src="https://github.com/user-attachments/assets/440f8ba8-71b0-4543-be9b-4a3b5164976b" /> |
 | Discrete price pattern, with the snap-back to the prior level occurring within a small number of ticks. |
 
