@@ -209,4 +209,4 @@ The second relationship was a three-way one between pistachio, strawberry and ra
 
 Huge thanks to IMC for running the competition, we're looking forward to competing again next year. 
 
-Thanks to Claude, Gemini, and ChatGPT lol
+Thanks to Claude, Gemini, and ChatGPT lol. LLMs allowed us to rapidly test ideas and perform large-scale analysis. However, we found they still lack some trading intuition.
