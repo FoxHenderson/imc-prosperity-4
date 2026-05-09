@@ -48,7 +48,7 @@ However, our most meaningful edge this round came from a second observation.
 
 #### Wide-fills
 
-Looking at the order book on any visualiser, it was easy to see that many timestamps had no resting quotes on either one or both sides. When market-making at these timestamps, we could deliberately quote far wider than the bid-ask spread quoted at other timestamps (e.g. we could cause a bot to buy 100 above wall-mid for osmium) and still get filled. Presumably, some taker bots were programmed to trade at fixed timestamps, hitting our quotes as the only available liquidity. We found that these bots would only cross the spread up to a predefined limit from the fair price, and so we quoted at this limit.
+Looking at the order book on any visualiser, it was easy to see that many timestamps had no resting quotes on either one or both sides at various points throughout the sample data. When market-making at these timestamps, we could deliberately quote far wider than the bid-ask spread quoted at other timestamps (e.g. we could cause a bot to buy 100 above wall-mid for osmium) and still get filled. Presumably, some taker bots were programmed to trade at fixed timestamps, hitting our quotes as the only available liquidity. We found that these bots would only cross the spread up to a predefined limit from the fair price, and so we quoted at this limit.
 
 |  |
 | --- |
