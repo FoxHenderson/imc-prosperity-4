@@ -45,7 +45,7 @@ Following the hint on the wiki, we reasoned that osmium was mean-reverting, whic
 |  |
 | --- |
 | **Figure 1: Ash Coated Osmium Orderbook over Time** |
-| <img width="1297" height="325" alt="osmium dashboard" src="https://github.com/user-attachments/assets/6a5ed8e7-50c2-44af-b8c3-230777e789c1" /> |
+| <img width="1289" height="321" alt="image" src="https://github.com/user-attachments/assets/524220ef-2ff9-4a1b-a9f3-1e510b33666d" /> |
 | Snippet of the dashboard for ASH_COATED_OSMIUM. Bids and asks are shown in blue and red; our own fills are marked in orange. |
 
 However, our most meaningful edge this round came from a second observation.
@@ -57,7 +57,7 @@ Looking at the order book on any visualiser, it was easy to see that many timest
 |  |
 | --- |
 | **Figure 2: A Wide Fill on a Missing-Side Timestamp** |
-| <img width="1466" height="383" alt="wide fill example" src="https://github.com/user-attachments/assets/1e0923ed-48db-4eee-89bf-e0ff81302484" /> |
+| <img width="1466" height="383" alt="image" src="https://github.com/user-attachments/assets/2da39da0-b6e4-4038-8a61-965e0694bb10" /> |
 |An example timestamp where one side of the order book is empty. Our quote, placed at the bot's tolerance limit, gets filled at far better than wall-mid. |
 
 ### Intarian Pepper Root
@@ -81,7 +81,7 @@ What we missed this round were predictable trades. Certain traders, as seen in t
 |  |
 | --- |
 | **Figure 3: Predictable Bot Trade Timestamps** |
-| <img width="892" height="596" alt="predictable trades" src="https://github.com/user-attachments/assets/813f28ba-3105-45d9-9097-9bb96474f74c" /> |
+| <img width="892" height="596" alt="image" src="https://github.com/user-attachments/assets/d7a04270-f067-400c-85aa-2bb02d2f498e" /> |
 | Distribution of bot trade timestamps across the three days of Round 2 data, showing the recurring pattern that we did not exploit. |
 
 Overall, this resulted in us **ranking 3rd in the world** at the end of Round 2.
@@ -125,7 +125,7 @@ Following the advice in the Discord and the advisor on the website, we tried to 
 |  |
 | --- |
 | **Figure 4: Velvetfruit Volatility Smile** |
-| <img width="1120" height="548" alt="VEV volatility smile" src="https://github.com/user-attachments/assets/b222f177-0c24-4183-b01b-50464b256d2c" /> |
+| <img width="1120" height="548" alt="WhatsApp Video 2026-04-25 at 16 22 45 (1)" src="https://github.com/user-attachments/assets/16a581e0-1b90-4394-82df-7f96b36d6794" /> |
 | Implied volatility plotted against moneyness for the eight active VEV strikes, with our parabolic fit overlaid. |
 
 Rather than rely on the IV smile, we ran a fixed-threshold mean-reversion strategy on the underlying and the vouchers: when the underlying moved more than 8 ticks away from $5{,}250$, we faded it on both fruit and every active voucher simultaneously (i.e all in mean-reversion lol).
@@ -169,7 +169,7 @@ Mark 22 often placed resting orders at, or below, the wall-mid. Since we believe
 |  |
 | --- |
 | **Figure 5: Mark 22 Spike Orders below Wall-Mid** |
-| <img width="1439" height="443" alt="mark 22 spikes" src="https://github.com/user-attachments/assets/1ca15c85-4bc1-49d8-91c6-977b2c34de3c" /> |
+| <img width="1439" height="443" alt="image" src="https://github.com/user-attachments/assets/bcbdecb7-7dd1-4efa-9b3e-5ff5821aa453" /> |
 | Best bid and best ask deviating below wall-mid on multiple vouchers simultaneously, corresponding to Mark 22's resting orders. |
 
 ## Round 5
@@ -191,7 +191,7 @@ We could exploit this due to the asymmetric payoff:
 |  |
 | --- |
 | **Figure 6: Discrete Jumps** |
-| <img width="1301" height="378" alt="discrete jump" src="https://github.com/user-attachments/assets/440f8ba8-71b0-4543-be9b-4a3b5164976b" /> |
+| <img width="1301" height="378" alt="image" src="https://github.com/user-attachments/assets/97e0fc7e-556d-4ced-b236-8f84a5a36aa3" /> |
 | Discrete price pattern, with the snap-back to the prior level occurring within a small number of ticks. |
 
 Crucially, we implemented this strategy to come into effect for any products, not just the ones that exhibited this in the sample data. Around 660,000 of our final-round PnL came from this strategy alone.
@@ -203,7 +203,7 @@ It was quite clear that the pebbles had a fixed sum of 50,000. This meant that o
 |  |
 | --- |
 | **Figure 7: Pebble Basket Sum over Time** |
-| <img width="1496" height="400" alt="pebble basket sum" src="https://github.com/user-attachments/assets/a24d8023-8006-44c0-920f-8887efe75ce4" /> |
+| <img width="1496" height="400" alt="image" src="https://github.com/user-attachments/assets/79584272-3421-424e-b61c-3243795b1605" /> |
 | Sum of best bids and asks across all five PEBBLES products, oscillating tightly around 50,000. |
 
 ### Snack Packs
@@ -212,7 +212,7 @@ The five snack pack flavours, chocolate, vanilla, pistachio, strawberry and rasp
 |  |
 | --- |
 | **Figure 8: Chocolate and Vanilla Snack Packs Mirrored Around 10,000** |
-| <img width="1204" height="381" alt="choc vs vanilla" src="https://github.com/user-attachments/assets/71b51ce9-0ac0-49fd-9a6b-bc752786264c" /> |
+| <img width="1204" height="381" alt="image" src="https://github.com/user-attachments/assets/4a8a4235-86fe-4b19-880c-8fcb62eaeba9" /> |
 | Wall-mids of SNACKPACK_CHOCOLATE and SNACKPACK_VANILLA plotted on the same axes, showing the near-perfect mirroring around 10,000. |
 
 The second relationship was a three-way one between pistachio, strawberry and raspberry. Strawberry and raspberry were mirrored around 10,000 in the same way as chocolate and vanilla, but with a slow upward drift in both products on top. Pistachio's returns were a clean linear function of strawberry's, with a regression coefficient of approx 0.6. Rather than trying to disentangle these into individual fair values, we just treated the normalised combination as a synthetic basket and ran mean reversion on its deviations from zero. Together, the two snack pack legs earned us roughly 20,000 per round.
