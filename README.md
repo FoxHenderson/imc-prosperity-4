@@ -89,7 +89,7 @@ Overall, this resulted in us **ranking 3rd in the world** at the end of Round 2.
 
 ## Round 3
 
-Round 3 introduced three new asset classes, and the assets from round 1/2 were removed. In this round, we had
+Round 3 introduced three new asset classes, and the assets from round 1/2 were removed. In this round, we had:
 
 - **HYDROGEL_PACK** — a mean-reverting asset.
 - **VELVETFRUIT_EXTRACT** — the underlying for a set of European-style call options (also mean-reverting).
